@@ -1,0 +1,150 @@
+/* 배경 */
+body {
+    background-color: #fb6572;
+    font-family: "Asap", sans-serif;
+    background: linear-gradient(45deg, #ea8144 0%, #f45b69 100%);
+}
+/* 박스 */
+.login {
+    overflow: hidden;
+    background-color: white;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: -webkit-transform 300ms, box-shadow 300ms;
+    -moz-transition: -moz-transform 300ms, box-shadow 300ms;
+    transition: transform 300ms, box-shadow 300ms;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
+}
+h2{
+    text-align: center;
+    margin-top: 4px;
+    color: rgb(42, 42, 42)
+}
+
+/* 꿀렁이 전체 */
+.login::before,
+.login::after {
+    content: "MOVIETVIA";
+    size: 25px;
+    color: #f96b19;
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 40%;
+    z-index: -1;
+}
+/* 꿀렁꿀렁이1 */
+.login::before {
+    left: 40%;
+    bottom: -80%;
+    background-color: #fc9254; 
+    -webkit-animation: wawes 6s infinite linear;
+    -moz-animation: wawes 6s infinite linear;
+    animation: wawes 6s infinite linear;
+}
+/* 꿀렁꿀렁이2 */
+.login::after {
+    left: 35%;
+    bottom: -100%;
+    background-color: #f9737e;
+    -webkit-animation: wawes 7s infinite;
+    -moz-animation: wawes 7s infinite;
+    animation: wawes 7s infinite;
+}
+/* 아이디 뭐뭐뭐 */
+.login .inp {
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white;
+    width: 100%;
+    border: 0;
+    padding: 10px 10px;
+    margin: 15px -10px;
+}
+/* 하단 버튼 3개 */
+#check {
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 80px;
+    border: 0ch;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-left: -5px;
+    border-radius: 5px;
+    background-color: #fd9c70;
+    -webkit-transition: background-color 300ms;
+    -moz-transition: background-color 300ms;
+    transition: background-color 300ms;
+    
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+}
+/* 마우스 hover 시 색 변함*/
+#check {
+    background-color: #fe606d;
+}
+/* 꿀렁이 파도 기능 */
+@-webkit-keyframes wawes {
+    from {
+        -webkit-transform: rotate(0);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes wawes {
+    from {
+        -moz-transform: rotate(0);
+    }
+
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@keyframes wawes {
+    from {
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 12px;
+}
