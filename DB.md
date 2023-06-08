@@ -1,25 +1,25 @@
 # DB
-create table board (
-    num NUMBER(20),
-    userid varchar2(20),
-	title varchar2(300),
-	content varchar2(1000),
-	writedate date default sysdate,
-	readcount NUMBER(20),
-	bgroup NUMBER(20),
-	bsequence NUMBER(20),
-	blevel NUMBER(20)
-    );
+create table board (  
+    num NUMBER(20),  
+    userid varchar2(20),  
+	title varchar2(300),  
+	content varchar2(1000),  
+	writedate date default sysdate,  
+	readcount NUMBER(20),  
+	bgroup NUMBER(20),  
+	bsequence NUMBER(20),  
+	blevel NUMBER(20)  
+    );  
     
-create table member (
-    name varchar2(20),
-	userid varchar2(20),
-	pwd NUMBER(20),
-	email varchar2(30),
-    phone NUMBER(13),
-    admin varchar2(20),
-    gender varchar2(10)
-    );
+create table member (  
+    name varchar2(20),  
+	userid varchar2(20),  
+	pwd NUMBER(20),  
+	email varchar2(30),  
+    phone NUMBER(13),  
+    admin varchar2(20),  
+    gender varchar2(10)  
+    );  
     
     create table movie(
     num NUMBER(20),
