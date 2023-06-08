@@ -1,4 +1,4 @@
-create table board (
+  create table board (
     num NUMBER(20),
     userid varchar2(20),
 	title varchar2(300),
