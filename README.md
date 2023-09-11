@@ -7,7 +7,7 @@
 # ⚙ 개발 환경 
 ![image](https://github.com/helmijin/MovieTVia/assets/113495471/98f1e604-09f9-48f7-8308-83c19c540b44)
 
-# 요구사항 분석
+# ✔ 요구사항 분석
   메인 : ![image](https://github.com/helmijin/MovieTVia/assets/113495471/b2dbd720-ba05-4ef6-8f09-b372858ce571)    
   게시판: ![image](https://github.com/helmijin/MovieTVia/assets/113495471/8c2e529b-df4f-4f5c-9b45-63493bf8c2af)  
   회원가입 : ![image](https://github.com/helmijin/MovieTVia/assets/113495471/dbaab8ee-f42d-4d37-858b-9414e31b4617)  
